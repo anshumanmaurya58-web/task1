@@ -10,12 +10,12 @@ engine.setProperty('rate', 150)  # Speaking speed
 engine.setProperty('volume', 1.0)  # Volume level
 
 # Predefined phrases
-phrases = {
-    "greet": ["Hi there!", "Hello, friend!", "Let's learn something fun!"],
-    "praise": ["Great job!", "You're a superstar!", "Wow! That was smart!"],
-    "encourage": ["Try again!", "Almost there!", "You can do it!"],
-    "bye": ["See you later!", "Goodbye!", "Come back soon!"]
-}
+# phrases = {
+#     "greet": ["Hi there!", "Hello, friend!", "Let's learn something fun!"],
+#     "praise": ["Great job!", "You're a superstar!", "Wow! That was smart!"],
+#     "encourage": ["Try again!", "Almost there!", "You can do it!"],
+#     "bye": ["See you later!", "Goodbye!", "Come back soon!"]
+# }
 
 # Speak function
 def speak(text):
